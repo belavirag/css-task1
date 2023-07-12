@@ -1,0 +1,81 @@
+body {
+    padding: 0;
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav a {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 4px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+}
+
+header {
+    display: grid;
+    place-items: center;
+    margin-top: 5px;
+}
+
+input, select, textarea {
+    display: block;
+    border: 1px solid slategray;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 5px;
+}
+
+table {
+    border-radius: 3px;
+    padding: 5px;
+    width: 80vw;
+}
+
+form {
+    width: 25vw;
+}
+
+tr, th, td {
+    border: 1px solid blue;
+    padding: 5px;
+}
+
+button {
+    background-color: #6d28d9;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #8b5cf6;
+}
+
+.container {
+    padding: 10px;
+    display: grid;
+    place-items: center;
+}
+
+.register-btn {
+    background-color: green;
+}
+
+.register-btn:hover {
+    background-color: rgb(0, 180, 0);
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    background-color: wheat;
+    width: 100vw;
+}
